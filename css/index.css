@@ -1,0 +1,187 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background:#EFEDED;
+    font-family: 'Lato',"Times New Roman",serif;
+}
+
+/*Header-start*/
+header {
+    height:300px;
+}
+
+.top-content ul {
+    text-align: right;
+}
+.top-container-nav {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+.top-container-nav li {
+    display: inline;
+    
+}
+.top-container-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    margin:10px;
+}
+.top-container-nav a:hover {
+    color:#F4E23E;
+}
+
+.logo {
+    padding-left: 40px;
+}
+.socialmedia1 {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+    margin-top: 75px;
+}
+.socialmedia1 li {
+  display: inline;
+}
+.socialmedia1 li a {
+    text-decoration: none;
+}
+
+.beforeslider {
+  margin-bottom: 20px;
+}
+.slider-quicklinks {
+  width:1200px;
+  margin:auto;
+}
+/*Header---end*/
+
+.main-content {
+  max-width: 1200px;
+  margin:0 auto;
+  padding-bottom: 20px;
+  float: left;
+}
+
+/*Slideshow in main-content---start*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  float: left;
+}
+.slidesmain {
+    display: none;
+}
+.text {
+  color: green;
+  font-size: 45px;
+  padding: 15px 12px;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*Slideshow in main-content---end*/
+
+/*Quicklinks---start*/
+.slider-quicklinks {
+  height:500px;
+}
+.quicklinks  {
+  list-style-type: none;
+  float:right;
+  margin:0;
+  padding:0;
+}
+.quicklinks li {
+  font-family: "New Times Roman", 'Lustria', serif; 
+  font-size: 16px;
+  padding: 20px;
+  border-bottom: 2px dotted;
+}
+.quicklinks li a:hover {
+  color:#F4E23E;
+}
+.quicklinks a {
+  text-decoration: none;
+  color: green;
+}
+.last-child-cust {
+  border-bottom: none;
+}
+/*Quicklinks---end*/
+
+/*class homeBlock---start*/
+.homeBlock {
+  padding:0;
+  margin:0;
+}
+.topPanel h1 {
+  font-size: 20px;
+  padding: 17px;
+}
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+}
+.bl {
+  padding:5px 30px;
+  border-radius:3px;
+  margin:10px;
+  background:#f9f9f4;
+}
+
+.maincontainer a {
+  text-decoration: none;
+  color:green;
+}
+.maincontainer a:hover {
+  color:#F4E23E;
+}
+.bottomPanel {
+  background:#afaf93;
+}
+.howtobrew h2 {
+  color: #fff;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.videotwo {
+  margin-left: 30px;
+}
+.informab {
+  font-size: 20px;
+  padding: 17px;
+}
+/*main-end*/
+.contactus {
+  font-size: 20px;
+  padding: 17px;
+}
+
+
+
+
+
+
+
+
+
